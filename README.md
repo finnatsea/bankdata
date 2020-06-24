@@ -10,7 +10,7 @@ OCR is now a solved problem. I tried every solution I could find in the spring o
 
 ##### OCR Ranking
 All of the OCR tools made mistakes. If I had to rank the quality of the text recognition services for my use case it would be as follows.
-1. [**Google Cloud Vision**](https://cloud.google.com/vision/docs) - 
+1. [**Google Cloud Vision**](https://cloud.google.com/vision/docs) - This service performed well on text that was tilted, obscured by ink specs, and on characters ambiguous even to humans. All new data extraction projects should start here.
 1. [**Tesseract 4**](https://tesseract-ocr.github.io/) - Easy to use and gave the most accurate output. I did not retrain the model.
 2. [**ABBYY FineReader**](https://www.abbyy.com/en-us/finereader/) - very well designed application but did not handle obscured text well which is common in historical documents.
 3. [**OCR provided by the FED's digitization team**](https://fraser.stlouisfed.org/title/56) - The FED's OCR had lots of errors on pages with non-perfect scans.
